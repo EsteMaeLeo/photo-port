@@ -1,10 +1,10 @@
-import React from 'react';
-import { capitalizeFirstLetter } from '../../utils/helpers';
+import React from "react";
+import { capitalizeFirstLetter } from "../../utils/helpers";
 
 import PhotoList from "../PhotoList";
 
 function Gallery({ currentCategory }) {
-    const { name, description } = currentCategory;
+  const { name, description } = currentCategory;
 
   return (
     <section>
